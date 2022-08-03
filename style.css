@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,500&family=Poppins:wght@500&family=Rubik&display=swap');
+
+.container{
+    background-color: royalblue;
+    width: 800px;
+    margin: 20px auto;
+    
+}
+.img{
+    width: 100%;
+    align-items: center;
+    border-radius:50px;
+    /* position:; */
+    /* size: cover; */
+}
+.img:hover{
+    /* width: 80%; */
+    border-radius: 100px;
+    /* background-color: red; */
+    /* background-blend-mode: color-burn; */
+}
+.content{
+    width: 600px;
+    margin: 50px auto;
+}
+.form{
+    width: 800px;
+    margin: 50px auto;
+}
+.content::first-letter{
+    color:rgb(255, 123, 0);
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    /* width: ; */
+    /* font-size: xx-large;
+     */
+     /* font-weight: bolder; */
+     /* font-weight: 600px; */
+     /* size: 50px; */
+}
+.content::before{
+    /* color: #9077; */
+    background-color: blue;
+    content: 'ok this is BEFORE' ;
+    width: 90px;
+    color: coral;
+}
+.content:after{
+    /* color: #9077; */
+    background-color: rgb(136, 136, 255);
+    content: 'ok this is AFTER' ;
+    width: 90px;
+}
+::selection{
+    background-color: rgb(0, 255, 187);
+    color: red;
+}
+a:hover{
+    color:gold;
+} 
+a:first-child{
+    text-decoration:wavy;
+    color: rgb(255, 0, 217); 
+}
+a:last-child{
+    text-decoration: line-through;
+    color: aliceblue; 
+}
+a:nth-child(4){
+    color: darkorange;
+    /* background-color: darkturquoise; */
+    /* font-size: 40px; */
+}
+a:focus{
+    font-size: 50px;
+}
+a:active{
+    font-size: 50px;
+}
+a:visited{
+    font-size: 50px
+}
